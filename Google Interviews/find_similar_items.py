@@ -8,11 +8,11 @@ def find_repeated_item_freq(arr,n):
     count = []
     for i in range(0,n):
         count.append(0)
+    for i in arr:
+        count[i] += 1
     for i in range(0,n):
-        count[i] 
-    for i in range(0,n):
-        if count[i] != 0:
-            print(str(i) +" has occured" + str(count[i]) + " times")
+        if count[i] > 1:
+            print(str(i) +" has occured " + str(count[i]) + " times")
 
 def find_repeated_item(arr,n):
     for i in range(0, n):
