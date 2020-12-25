@@ -1,0 +1,1 @@
+print(pow(2,int(input()),pow(10,9)+7))

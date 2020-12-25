@@ -22,7 +22,7 @@ def adv_trailing_zero(res):
         restemp *= 5
     return no_zero
 if __name__ == "__main__":
-    n = int(input("Enter the number :- "))
+    n = int(input())
     # res = cal_fact(n)
     # no_zero = cal_trail_zero(res)
     no_zero = adv_trailing_zero(n)
